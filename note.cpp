@@ -3,7 +3,7 @@
 
 #define DECLEAR_GET_INSTANCE(class_name)   \
         public:
-        static class_name GetInstance()    \
+        static class_name* GetInstance()    \
         {                                  \
           static class_name* instance = NULL;\
           if(NULL == instance)             \
@@ -14,7 +14,7 @@
         }                                  \ 
 
 #define DECLARE_SINGLETON(class_name)      \
-        DECLEAR_GET_INSTANCE(CLASS_NAME)   \
+        DECLEAR_GET_INSTANCE(class_name)   \
         protected:                         \
         class_name();                      \
         ~class_name();                     \
