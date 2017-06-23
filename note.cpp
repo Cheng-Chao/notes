@@ -2,13 +2,13 @@
 
 
 #define DECLEAR_GET_INSTANCE(class_name)   \
-        public:
+        public:                             \
         static class_name* GetInstance()    \
         {                                  \
           static class_name* instance = NULL;\
           if(NULL == instance)             \
           {                                \
-            intance = new class_name;      \
+            instance = new class_name;      \
           }                                \
           return instance;                 \
         }                                  \ 
