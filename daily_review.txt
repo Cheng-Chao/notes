@@ -1,0 +1,15 @@
+algorithm: binarysearch; radixsort; heapsort; mergesort; shellsort; quicksort;
+
+data structure: union find; reverse a linkedlist; B-tree post-traversal; B-tree level-traversal;
+
+graph: dijksrta ; floyed; 
+
+design pattern : abstract factory; observer;
+
+C && C++ other: 
+strcpy()
+strcmp()
+
+
+
+
