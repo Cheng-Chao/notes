@@ -1,0 +1,2 @@
+git checkout -b newbranch   attention: -b
+git branch -u origin/new   attention: 1. checkout to the local branch you wanna be tracked,here is local branch "new"; 2. '-u' (not '--u') equals "--set -upstream" 3. "origin/new" (not "origin new")
