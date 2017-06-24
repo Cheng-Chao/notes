@@ -4,7 +4,7 @@ data structure: union find; reverse a linkedlist; B-tree post-traversal; B-tree 
 
 graph: dijksrta ; floyed; 
 
-design pattern : abstract factory; observer;
+design pattern : abstract factory; observer; macors defined Singleton
 
 C && C++ other: 
 strcpy()
