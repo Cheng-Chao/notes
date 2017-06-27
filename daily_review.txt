@@ -9,7 +9,7 @@ design pattern : abstract factory; observer; macros defined Singleton
 C && C++ other: 
 strcpy()
 strcmp()
-
+binarysearch()
 
 
 
