@@ -1,3 +1,8 @@
+>>>difference between fork() and multithread  ?
+    1.fork()  system forks a another *progress* ;
+    2.multithread is *thread*.
+    
+
 algorithm: binarysearch; radixsort; heapsort; mergesort; shellsort; quicksort;
 
 data structure: union find; reverse a linkedlist; B-tree post-traversal; B-tree level-traversal;
