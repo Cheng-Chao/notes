@@ -1,6 +1,7 @@
-{macro defined singleton;
+#c++ notes
+##macro defined singleton;
 /*------------------use macros to define a Singleton----------------*/
-#define DECLEAR_GET_INSTANCE(class_name)   \
+`#define DECLEAR_GET_INSTANCE(class_name)   \
         public:                             \
         static class_name* GetInstance()    \
         {                                  \
@@ -11,30 +12,26 @@
           }                                \
           return instance;                 \
         }                                  \ 
+`
 
-#define DECLARE_SINGLETON(class_name)      \
+`#define DECLARE_SINGLETON(class_name)      \
         DECLEAR_GET_INSTANCE(class_name)   \
         protected:                         \
         class_name();                      \
         ~class_name();                     \
         class_name(const class_name& );    \
         const class_name& operator=(const class_name&);  
-       
-/*------------------use macros to define a Singleton----------------*/
- }
+`      
 
-{
-common func in stl;
+##common func in stl;
 
 //STL常见函数：
 Distance() ；	//inline typename iterator_traits<_InputIterator>::difference_type Distance(_InputIterator __first, _InputIterator __last)； return n; //俩参数为俩指针；返回俩个指针之间的距离。如：int 20; 
 unique()；	//ForwardIterator     unique(_ForwardIterator __first, _ForwardIterator __last)；return __last; //去重函数；记得是相邻俩元素去重！ 如果是数组记得排序。
 //结合使用确定数组中不同数的个数：	
 1.sort(a,a+sizeof(a)/sizeof(a[0]))2.distance (a,unique(a,a+sizeof(a)/sizeof(a[0]));  //distance 返回int值，unique返回最后一个不同元素的指针。
-}
 
-{
-func in string;
+##func in string;
                                                                        
 String 类函数总结：
 {earse();}	
