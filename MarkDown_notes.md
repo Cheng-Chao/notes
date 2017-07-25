@@ -6,7 +6,10 @@
 * **bold**  
 >**\*\* bold\*\***  
 ---
-* **reference**  
+* **talic**  
+*\*zhaojinzhou\**
+---
+* **reference**  *
 > \>reference
 >> \>\>reference  
 ---
@@ -21,4 +24,7 @@
 - [] list2  
 
   - []
-  - []
+  - []  
+---  
+* **pic**  
+![pic](http://www.baidu.com/img/bdlogo.gif)
