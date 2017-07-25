@@ -1,7 +1,9 @@
 ## Table of contents
-* c++ notes [[1]](https://github.com/zhaojinzhou/notes/blob/master/C%2B%2B%20note.md);
-* EA notes [[2]]()
-* design pattern notes [[3]]()
-* python notes [[4]]()
-* java notes [[5]]()
-* algorithm [[6]]()
+* [c++ notes](https://github.com/zhaojinzhou/notes/blob/master/C%2B%2B%20note.md);
+* [MarkDown notes](https://github.com/zhaojinzhou/notes/blob/master/MarkDown_notes.md)
+* [EA notes]()
+* [design pattern notes]()
+* [python notes]()
+* [java notes]()
+* [algorithm]()
+
