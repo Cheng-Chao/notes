@@ -1,7 +1,7 @@
 # c++ notes
 ### macro defined singleton;
-/*------------------use macros to define a Singleton----------------*/
-`#define DECLEAR_GET_INSTANCE(class_name)   \\
+\/\*------------------use macros to define a Singleton----------------\*\/  
+`#define DECLEAR_GET_INSTANCE(class_name)  
         public:                             \\
         static class_name* GetInstance()    \\
         {                                  \\
@@ -34,13 +34,13 @@
 ### func in string;
                                                                        
 String 类函数总结：
-{earse();}	
-1.basic_string&       
+earse();  
+* 1.basic_string&       
 * erase(size_type __pos = 0, size_type __n = npos) //删除pos开始的字符串，删除长度为npos(一般整形)；2.iterator
 * erase(iterator __position) //删除position开始以后的字符串, __position 是string迭代器开始位置。返回删除点开始位置3.iterator
 * erase(iterator __first, iterator __last)//删除string迭代器__first到__last之间的内容，返回删除点开始位置；
 		
-{Replace()}	
-1.basic_string&
+Replace()  
+* 1.basic_string&
 * replace(size_type __pos, size_type __n, const basic_string& __str)
 }
