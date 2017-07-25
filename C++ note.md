@@ -1,6 +1,8 @@
 # c++ notes
 
-### macro defined[singleton](https://github.com/zhaojinzhou/notes/blob/master/singleton.cpp);
+### macro defined singleton[[1]](https://github.com/zhaojinzhou/notes/blob/master/singleton.cpp);  
+---
+### shared_ptr introduction[[2]]();  
 ---
 
 ### common func in stl;
