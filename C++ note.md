@@ -2,7 +2,7 @@
 
 ### macro defined singleton[[1]](https://github.com/zhaojinzhou/notes/blob/master/singleton.cpp);  
 ---
-### shared_ptr introduction[[2]]();  
+### shared_ptr introduction[[2]](https://github.com/zhaojinzhou/notes/blob/master/shared_prt.md);  
 ---
 
 ### common func in stl;
