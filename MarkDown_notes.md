@@ -27,4 +27,4 @@
   - []  
 ---  
 * **pic**  
-![can not display](http://www.baidu.com/img/bdlogo.g)
+![can not display](http://www.baidu.com/img/bdlogo.gif)
