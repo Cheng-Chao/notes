@@ -6,5 +6,5 @@
 * [python notes]()
 * [java notes]()
 * [algorithm]()
-* [Excel]()
+* [Excel](https://github.com/zhaojinzhou/notes/blob/master/Excel.md)
 
