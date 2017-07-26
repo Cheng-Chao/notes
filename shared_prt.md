@@ -1,4 +1,4 @@
-##shared_ptr is a kind of smart pointer;
+## shared_ptr is a kind of smart pointer;
 
 * shared_ptr means it can be delivered or moved and **keep the origin one useful; **
 
@@ -29,7 +29,7 @@ example:
 ---
  
 
-tip:
+## tip:
 * shared_ptr has 3 common constructors;
   * **shared_ptr sm_ptr(pointer);**
   * **shared_ptr sm_ptr2(sm_ptr);** the same as operator= ; this will cause the use_count()++
