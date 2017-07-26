@@ -1,6 +1,6 @@
 ## shared_ptr is a kind of smart pointer;
 
-* shared_ptr means it can be delivered or moved and **keep the origin one useful**
+* shared_ptr means it can be delivered or moved and **keep the original one useful**;  
 
 * unique_ptr becomes useless once delivered or moved;
 
