@@ -4,7 +4,10 @@
 ---
 ### shared_ptr introduction[[2]](https://github.com/zhaojinzhou/notes/blob/master/shared_prt.md);  
 ---
-
+* trivial knowledge:  
+	* class std::move(class);  //move the content to the new one; the original one becomes useless;  
+	new unique_ptr = std::move(old unique_ptr); new string = std::move(old string); the old one == NULL; 
+	* 
 ### common func in stl;
 
 //STL常见函数：
