@@ -15,11 +15,13 @@ example:
         {
             int* tmpinner = new int(10);
             tmp=tmpinner;
-            std::cout<<*tmp<<std::endl;
-            std::shared_ptr<int> bar (tmpinner);  
             
+            //attention!!!
+            std::cout<<*tmp<<std::endl;
+            std::shared_ptr<int> bar (tmpinner);         
             foo = bar;                                            //copy the smart pointer to another;
-             
+            //attention!!!
+              
             std::cout<<bar.use_count()<<std::endl;                //counter ++;   2
             std::cout<<foo.use_count()<<std::endl;                //the counters of the two keep the same ;  2
         }
@@ -28,6 +30,31 @@ example:
     }
 ---
  
+## unique_ptr
+
+    // Example program
+    #include <iostream>
+    #include <string>
+    #include <memory>
+    using namespace std;
+    int main()
+    {
+        int * first = new int(10);
+
+        //attention!!!
+        unique_ptr<int> u_ptr(first);
+        unique_ptr<int> u_ptr1= move(u_ptr);
+        //attention!!!
+
+        if(!u_ptr)cout<<"u_ptr is empty()";
+        //overload the bool operator to judge if(u_ptr) is empty();
+        
+        cout<<'\t'<<*u_ptr1;
+        return 0;
+
+
+    }
+---
 
 ## tip:
 * shared_ptr has 3 common constructors;
@@ -38,6 +65,6 @@ example:
 * unique_ptr() can only be moved; can't be copy;  
 
       unique_ptr first(new int(10));
-      unique_ptr second = first.move(); //first is useless;
+      unique_ptr second = std::move(first); //first is useless;
 
 
