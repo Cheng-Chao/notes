@@ -1,5 +1,5 @@
 ## Table of contents
-* [c++ notes](https://github.com/zhaojinzhou/notes/blob/master/C%2B%2B%20note.md);
+* [C++ notes](https://github.com/zhaojinzhou/notes/blob/master/C%2B%2B%20note.md);
 * [MarkDown notes](https://github.com/zhaojinzhou/notes/blob/master/MarkDown_notes.md)
 * [EA notes]()
 * [Design pattern notes](https://github.com/zhaojinzhou/notes/blob/master/Design%20Patterns%20Note.md)
