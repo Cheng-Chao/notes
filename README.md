@@ -5,6 +5,6 @@
 * [Design pattern notes](https://github.com/zhaojinzhou/notes/blob/master/Design%20Patterns%20Note.md)
 * [Python notes]()
 * [Java notes]()
-* [Algorithm]()
+* [Algorithm](https://github.com/zhaojinzhou/notes/blob/master/Algorithm.md)
 * [Excel](https://github.com/zhaojinzhou/notes/blob/master/Excel.md)
 
