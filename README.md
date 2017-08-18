@@ -8,4 +8,5 @@
 * [Algorithm](https://github.com/zhaojinzhou/notes/blob/master/Algorithm.md)
 * [Excel](https://github.com/zhaojinzhou/notes/blob/master/Excel.md)
 * [OSnote](https://github.com/zhaojinzhou/notes/blob/master/OSnote.md)
-
+* [SelfManagement](https://github.com/zhaojinzhou/notes/blob/master/SelfManage.md)
+* 
