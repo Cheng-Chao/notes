@@ -1,3 +1,33 @@
+## 08.18  
+#### 遇到的问题：  
+去掉字符串末尾的；如果他存在的话  
+
+    MsgType;
+    bitCriticDiagnstPresent
+    bitSpare
+    usMenbUeX2apId;
+    usSgnbUeX2apId;
+    ERabAdmittedToBeAddedList;
+    ERabNotAdmittedList;
+    SgNbtoMeNbContainer;
+    CriticDiagnst
+
+#### 解决方法：
+    =IF(MID(A1,LEN(A1),1)=";",MID(A1,1,LEN(A1)-1),A1)
+
+
+    MsgType
+    bitCriticDiagnstPresent
+    bitSpare
+    usMenbUeX2apId
+    usSgnbUeX2apId
+    ERabAdmittedToBeAddedList
+    ERabNotAdmittedList
+    SgNbtoMeNbContainer
+    CriticDiagnst
+
+---  
+
 ## 07.26  
 #### 遇到的问题：  
     enCellType
