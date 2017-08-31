@@ -17,4 +17,6 @@
 * 默认双向，选中右击，***property，Direction(source->target)改为单向***，则有箭头。其中还可以添加roles来确定通过什么来关联  
 ![association](http://www.sparxsystems.com/enterprise_architect_user_guide/12.1/images/d_associationclass.png)
 
-### 
+### Short cut key
+1 . F9 or F10 !!! add attributes and operations shortcut  
+2 . ctrl + right click !!! add relations inlcude dependency and association and realization and inheritance and composite and aggregate
