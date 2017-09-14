@@ -10,3 +10,4 @@
 * [OSnote](https://github.com/zhaojinzhou/notes/blob/master/OSnote.md)
 * [SelfManagement](https://github.com/zhaojinzhou/notes/blob/master/SelfManage.md)
 * [SQL note](https://github.com/zhaojinzhou/notes/blob/master/SqlNote.md)
+* [Daily note](https://github.com/zhaojinzhou/notes/blob/master/daily_note.md)
