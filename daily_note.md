@@ -8,12 +8,13 @@
 1. ACID atomicity consistency（系统中不存在失败的事务） isolation durability    
 2. 4 levels of isolation :  
 
-![](http://images2015.cnblogs.com/blog/903715/201611/903715-20161102150430955-492049629.png)  
+     ![](http://images2015.cnblogs.com/blog/903715/201611/903715-20161102150430955-492049629.png)  
 
-read uncommitted（脏读）;  
-read committed（不可重复读【主要原因是事务希望可重复读{前后读取的数据一致}】）;   
-repeatable read（幻读【增删】，）;   
-serialization（最高级别）。  
+   * read uncommitted（脏读）;  
+   * read committed（不可重复读【主要原因是事务希望可重复读{前后读取的数据一致}】）;   
+   * repeatable read（幻读【增删】，）;   
+   * serialization（最高级别）。  
+
 3. cap理论 分布式操作系统的3大特性：**一致性，可用性，和分区容错性不可能同时满足**。    
 
     一致性：其中一个节点的数据正确的修改后其他节点的数据也应该相应的正确修改。  
@@ -41,7 +42,7 @@ serialization（最高级别）。  
       2.4 完成事务  (协调者)  
 pros & cons:  
 简单易实现；  
-**同步阻塞**（必须要等所有参与者完成）；**单点问题**（如果协调者出现问题~呵呵）；**数据不一致**（如果协调者在phase 2中的回复消息丢失~造成有的数据库更新了，其他的没有）；**太过保守**。  
+**同步阻塞**（必须要等所有参与者完成）；**单点问题**（如果协调者出现问题\~呵呵）；**数据不一致**（如果协调者在phase 2中的回复消息丢失~造成有的数据库更新了，其他的没有）；**太过保守**。  
 
 3PC (phase commit)  
 
