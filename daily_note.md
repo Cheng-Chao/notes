@@ -22,7 +22,8 @@ serialization（最高级别）。  
 ----  
 
 #### 一致性协议  
-2PC (phase commit):  
+2PC (phase commit):  
+2种角色：协调者coordinator; 参与者
 
     1 提交事务请求  
       1.1 事务询问（协调者->参与者）  
@@ -34,8 +35,12 @@ serialization（最高级别）。  
       2.2 事务提交  (参与者)  
       2.3 反馈事务提交结果 (参与者->协调者)   
       2.4 完成事务  (协调者)  
-
+pros & cons:  
+简单易实现；  
+同步阻塞（）；单点问题（如果协调者出现问题~呵呵）；脑裂；太过保守。  
 3PC (phase commit)  
 
 paxos  
 
+#### 多线程相关知识  
+* c++ <thread>头文件  
