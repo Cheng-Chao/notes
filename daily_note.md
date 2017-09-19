@@ -48,6 +48,18 @@ pros & cons:  
 
 paxos  
 
+
+#### c++11相关知识点  
+void excpt_func() `noexcept`;  
+另外一种则可以接受一个常量表达式作为参数，如下所示：  
+void excpt_func() `noexcept (常量表达式);`  
+
+
 #### 多线程相关知识  
 * c++ <thread>头文件  
-
+std::this_thread命名空间,包含4个方法：  
+     get_id()  
+     yield()  
+     sleep_until()  
+     sleep for()  
+ 
