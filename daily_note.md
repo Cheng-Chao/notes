@@ -54,6 +54,40 @@ void excpt_func() `noexcept`;
 另外一种则可以接受一个常量表达式作为参数，如下所示：  
 void excpt_func() `noexcept (常量表达式);`  
 
+---
+
+<ratio> 头文件
+定义了分数类，和与分数相关的操作。  
+**头文件中的内容全部都是类**  
+
+          Classes
+          ratio
+          Ratio (class template )
+
+          ratio arithmetic:
+          ratio_add
+          Add two ratios (class template )
+          ratio_subtract
+          Subtract ratios (class template )
+          ratio_multiply
+          Multiply two ratios (class template )
+          ratio_divide
+          Divide ratios (class template )
+
+          ratio comparison:
+          ratio_equal
+          Compare ratios (class template )
+          ratio_not_equal
+          Compare ratios for inequality (class template )
+          ratio_less
+          Compare ratios for less-than inequality (class template )
+          ratio_less_equal
+          Compare ratios for equality or less-than inequality (class template )
+          ratio_greater
+          Compare ratios for greater than inequality (class template )
+          ratio_greater_equal
+          Compare ratios for equality or greater-than inequality (class template )
+
 
 #### 多线程相关知识  
 * c++ <thread>头文件  
