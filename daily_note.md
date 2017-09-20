@@ -97,3 +97,20 @@ std::this_thread命名空间,包含4个方法：
      sleep_until()  
      sleep for()  
  
+ ---
+ 
+ #### miscellaneous  
+ 
+ * 3次握手，为了防止已失效的连接请求报文段突然又传送到了服务端，因而产生错误；
+ client ->(sync) target_client 为了区分用户id还发了一个随机数
+ target_client ->(sync+ack) client 随机数加1
+ client ->(ack) target_client
+ 
+ 
+
+* 4次握手，主要是因为TCP为全双工，FIN（finish）知识表明发送发停止发送消息了。
+client ->(FIN) target_client
+target_client ->(ACK) client
+target_client ->(FIN) client
+client ->(ACK) target_client
+
