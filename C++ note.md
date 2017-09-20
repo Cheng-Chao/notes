@@ -1,5 +1,14 @@
 # c++ notes
 
+### [memcache]()  
+
+### [nedmalloc]()  
+
+### [log4cpp]()  
+
+### [socket]()  
+
+
 ### [Macro defined singleton](https://github.com/zhaojinzhou/notes/blob/master/singleton.cpp);  
 ---
 ### [Shared_ptr introduction](https://github.com/zhaojinzhou/notes/blob/master/shared_prt.md);  
