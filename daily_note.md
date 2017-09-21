@@ -114,3 +114,7 @@ target_client ->(ACK) client
 target_client ->(FIN) client  
 client ->(ACK) target_client  
 
+#### hadoop  
+hbase 是google bigtable的开源实现。
+chubby 对应zookeeper协调一致
+
