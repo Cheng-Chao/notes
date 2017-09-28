@@ -11,4 +11,4 @@
 * [SelfManagement](https://github.com/zhaojinzhou/notes/blob/master/SelfManage.md)
 * [SQL note](https://github.com/zhaojinzhou/notes/blob/master/SqlNote.md)
 * [Daily note](https://github.com/zhaojinzhou/notes/blob/master/daily_note.md)
-* [Redis](http://naotu.baidu.com/file/5ab8bd4980ae00c27ce06638bbe7e883?token=a4bcaa015041c9fb)
+* [Redis](https://github.com/zhaojinzhou/notes/blob/master/redis.md)
