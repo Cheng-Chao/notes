@@ -1,4 +1,18 @@
-## shared_ptr is a kind of smart pointer;
+
+#### summary :  
+
+* shared_ptr has 3 common constructors;
+  * **shared_ptr sm_ptr(pointer);**
+  * **shared_ptr sm_ptr2(sm_ptr);** the same as operator= ; this will cause the use_count()++
+  * shared_ptr(pointer,destructor);  
+
+* unique_ptr() can only be moved; can't be copy;  
+
+      unique_ptr first(new int(10));
+      unique_ptr second = std::move(first); //first is useless;
+
+
+---
 
 * shared_ptr means it can be delivered or moved and **keep the original one useful**;  
 
