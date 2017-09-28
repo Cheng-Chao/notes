@@ -1,7 +1,8 @@
 # StdIO  
 
 #### summary:  
-1. 
+   
+
      while(ret=scanf("%d %d",&a,&d)){
           cin.sync(); // pay attention 
           cout<<ret;
