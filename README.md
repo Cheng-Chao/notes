@@ -10,5 +10,6 @@
 * [OSnote](https://github.com/zhaojinzhou/notes/blob/master/OSnote.md)
 * [SelfManagement](https://github.com/zhaojinzhou/notes/blob/master/SelfManage.md)
 * [SQL note](https://github.com/zhaojinzhou/notes/blob/master/SqlNote.md)
-* [Daily note](https://github.com/zhaojinzhou/notes/blob/master/daily_note.md)
 * [Redis](https://github.com/zhaojinzhou/notes/blob/master/redis.md)
+* [Distributed System](https://github.com/zhaojinzhou/notes/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F.md)  
+* [Daily note](https://github.com/zhaojinzhou/notes/blob/master/daily_note.md)
