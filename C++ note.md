@@ -1,5 +1,8 @@
 # c++ notes
 
+### trivial
+* 如果**改写类的operator=** 一定要**判断**入参是不是自己，如果是直接返回\*this.
+
 ### [memcache]()  
 
 ### [nedmalloc]()  
