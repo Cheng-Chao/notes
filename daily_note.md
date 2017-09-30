@@ -1,6 +1,13 @@
-
-
-
+#### c++ 调用 c代码
+ 
+     #ifdef __cplusplus
+     extern "C" {
+     #endif /* __cplusplus */
+     VOS_UINT32 CeimGetUecpmMsgType(VOS_MSG_BLOCK *msg);
+     #ifdef __cplusplus
+     }
+     #endif /* __cplusplus */
+     #endif
 ---
 
 #### RPC remote procedure call  
