@@ -145,3 +145,8 @@ client ->(ACK) target_client
 hbase 是google bigtable的开源实现。
 chubby 对应zookeeper协调一致
 
+
+
+#### 局域网内 ping 其他 地址
+
+@for /l %i in (1,1,255) do @ping -n 1 -w 40 192.168.1.%i & if errorlevel 1 (echo 192.168.1.%i>>na.txt) else (echo 192.168.1.%i>>act.txt)
