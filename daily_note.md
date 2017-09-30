@@ -7,7 +7,7 @@
      #ifdef __cplusplus
      }
      #endif /* __cplusplus */
-     #endif
+
 ---
 
 #### RPC remote procedure call  
