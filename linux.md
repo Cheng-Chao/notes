@@ -11,5 +11,16 @@ commond & run in background
 
 #### 常用的软件
 boot_repair    ---- 修复boot  
-vsftpd         ---- ftpserver  
+
+----  
+
+vsftpd         ---- ftpserver  [安装服务教程](https://jingyan.baidu.com/article/67508eb4d6c4fd9ccb1ce470.html)  
+
+note:
+550 Permission denied  
+原因：vsftp默认配置不允许上传文件。  
+解决：修改/etc/vsftpd.conf,将“write_enable=YES”前面的#取消,重启vsftp服务器。  
+
+----
+
 uget+aria2     ---- download
