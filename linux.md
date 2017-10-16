@@ -19,7 +19,7 @@
 
 ----  
 
-* vsftpd         ---- ftpserver  [安装服务教程](https://jingyan.baidu.com/article/67508eb4d6c4fd9ccb1ce470.html)  
+* vsftpd         ---- ftpserver  [安装服务教程](http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/)  
   note:
   550 Permission denied  
   原因：vsftp默认配置不允许上传文件。  
