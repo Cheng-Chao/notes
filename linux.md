@@ -14,6 +14,8 @@
    
 * apt-get purge 和 romve -f 区别 purge 更彻底
 
+* ssh name@remoteserver 命令行登录远程linux机器
+
 #### 常用的软件
 * boot_repair    ---- 修复boot  
 
