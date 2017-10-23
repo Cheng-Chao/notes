@@ -1,3 +1,54 @@
+#### c++ 模板函数和多参数函数合用  
+
+场景： 不同场景走同一段代码，但是函数参数个数不一样，且参数类型不一样。  
+
+参数类型不一样决定了仅用可变参数不能解决问题；  
+参数个数不一样决定了仅用重载无法走同一段代码；  
+
+模板加可变参数可以解决问题；  
+项目代码中是这样解决的：  
+
+    void default(...){
+    }
+
+    void default (class A){
+        a_do_sth();
+    }
+
+    void default(class A, class B){
+       a_do_sth();
+       b_do_sth();
+    }
+
+    template<class A, class B>
+    void simulate(A a, B b){
+       default(a);
+       default(a,b);
+    }
+
+
+使用方法为每次需要重写default()函数；  
+
+若有场景只需要用一个参数：  
+
+     void default (c input){
+        a_do_sth();
+     }
+
+     C c ;
+     simulate(c,NULL);
+    
+    //其中未被定义的二参数函数将走到可变函数参数中去，空函数。
+    
+
+
+
+
+
+
+---
+
+
 #### c++ 调用 c代码
  
      #ifdef __cplusplus
