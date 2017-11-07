@@ -2,6 +2,7 @@
 
 ### trivial
 * 如果**改写类的operator=** 一定要**判断**入参是不是自己，如果是直接返回\*this.
+* set和map的成员函数insert返回值为pair<iterator,book> 位置和结果。
 
 ### [PROC CATCH]()
 ---
