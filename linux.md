@@ -1,7 +1,11 @@
 
 #### 添加用户和默认目录
-* sudo useradd -d /home/zhaojinzhou -s /bin/bash zhaojinzhou  
-  passwd 密码    //设置密码  
+
+* du  
+ 显示文件大小  
+
+* sudo useradd -d /home/zhaojinzhou -s /bin/bash zhaojinzhou 
+  passwd 密码    //设置密码  
 
 * uname -a 简要信息  
   cat /proc/version 内核版本  
