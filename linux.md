@@ -1,13 +1,16 @@
+
+#### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
+
+
 #### VIM 常用
-* wq / q! 保存修改关闭 / 不保存修改关闭
-* esc v visual模式
-* d 删除
-* 
+* wq / q! : 保存修改关闭 / 不保存修改关闭
+* esc v : visual模式
+* d delete 删除
+* p paste
+*  vim 搜索 / or ？+字符串
+
+
 #### 添加用户和默认目录
-
-* du  
- 显示文件大小  
-
 * sudo useradd -d /home/zhaojinzhou -s /bin/bash zhaojinzhou 
   passwd 密码    //设置密码  
 
@@ -18,7 +21,9 @@
 * commond & run in background
 
 * whereis filename 查找文件
-  vim 搜索 / or ？+字符串
+
+* du  
+ 显示文件大小  
    
 * apt-get purge 和 romve -f 区别 purge 更彻底
 
