@@ -8,7 +8,7 @@
 * d delete 删除
 * p paste
 *  vim 搜索 / or ？+字符串
-
+* 显示行数 ：set number
 
 #### 添加用户和默认目录
 * sudo useradd -d /home/zhaojinzhou -s /bin/bash zhaojinzhou 
