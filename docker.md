@@ -13,4 +13,5 @@ docker 是容器引擎：
     docker cp src/file dockername(or docker_id):home/path  
 
     docker exec -it(interative tty) ubuntu  bin/bash  
-
+    
+    docker tag long_long_name_image short_name
