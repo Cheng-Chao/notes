@@ -10,11 +10,10 @@ docker 是容器引擎：
 基本命令：  
 
 
-    docker cp src/file dockername(or docker_id):home/path  
+       docker cp src/file dockername(or docker_id):home/path  
 
-    docker exec -it(interative tty) ubuntu  bin/bash  
-    
-    docker tag long_long_name_image short_name 标tag
-    
-    
-    docker inspect id 详细检查container 配置。
+       docker exec -it(interative tty) ubuntu  bin/bash  
+
+       docker tag long_long_name_image short_name 标tag  
+
+       docker inspect id 详细检查container 配置。  
