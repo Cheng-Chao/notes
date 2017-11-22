@@ -14,4 +14,7 @@ docker 是容器引擎：
 
     docker exec -it(interative tty) ubuntu  bin/bash  
     
-    docker tag long_long_name_image short_name
+    docker tag long_long_name_image short_name 标tag
+    
+    
+    docker inspect id 详细检查container 配置。
