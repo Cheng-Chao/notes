@@ -19,7 +19,5 @@ docker 是容器引擎：
        docker tag long_long_name_image short_name 标tag  
 
        docker inspect id 详细检查container 配置。  
-
-       docker rm container_id;
-       
-       docker rmi image_id;
+       docker rm container_id;
+       docker rmi image_id;
