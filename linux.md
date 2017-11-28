@@ -5,6 +5,9 @@ chmod 777 拥有人；所在组；所有人。 执行；读；写。  
 +增加权限；-取消权限；  
 chmod +rwx file_name  equals chmod 777 file_name  
 read, write, exec;
+
+
+grep zhaojinz <zhao.txt  找那一行
  
 
 
