@@ -1,4 +1,14 @@
 
+#### shell 命令 
+chmod: change mode   
+chmod 777 拥有人；所在组；所有人。 执行；读；写。  
++增加权限；-取消权限；  
+chmod +rwx file_name  equals chmod 777 file_name  
+read, write, exec;
+ 
+
+
+
 #### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
 
 
