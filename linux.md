@@ -7,7 +7,7 @@ chmod +rwx file_name  equals chmod 777 file_name
 read, write, exec;
 
 
-grep zhaojinz <zhao.txt  找那一行
+grep zhaojinz <zhao.txt  找含有zhaojinz的所有行
  
 
 
