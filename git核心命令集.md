@@ -1,6 +1,5 @@
 必做：
-* 产生公钥：`ssh-keygen -t rsa -C "emailaddress"`
-    1. 将产生的.pub文件copy到网站上去
+* 产生公钥：`ssh-keygen -t rsa -C "emailaddress"`将产生的.pub文件copy到网站上去
     
 * 自动换行开关`git config --global core.autocrlf false`
 * 建立追踪`git branch -u origin/new`  
