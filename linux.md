@@ -1,7 +1,7 @@
 #### sftp 命令
 
 1. 通过本地的shell登录远端机器 sftp root@100.100.100.100
-2. lls本地文件浏览；ls远端目录文件浏览
+2. lls本地文件浏览；ls远端目录文件浏览(加l的命令是本地目录lpwd)
 3. put local_file remote_file
 4. get remote_file local_file
 
