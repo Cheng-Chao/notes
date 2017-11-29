@@ -104,7 +104,7 @@ grep zhaojinz <zhao.txt  找含有zhaojinz的所有行
 
 * uget+aria2     ---- download
 
-
+* Xmanger 连接suse https://jingyan.baidu.com/article/454316ab52f679f7a7c03a39.html
 #### 不常用场景
 
 * 
