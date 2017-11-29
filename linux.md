@@ -7,17 +7,37 @@ chmod +rwx file_name  equals chmod 777 file_name
 read, write, exec;
 
 
-grep zhaojinz <zhao.txt  找含有zhaojinz的所有行
+grep zhaojinz <zhao.txt  找含有zhaojinz的所有行  
 
-    SHA1000132656:~ # zhaojinzhou=(1 2 3 4 5 6 7)
-    SHA1000132656:~ # echo ${zhaojinzhou[3]}
-    4
-    SHA1000132656:~ # echo ${zhaojinzhou[@]}
-    1 2 3 4 5 6 7
+* 数组  
 
-变量数组；尤其注意@符号的使用。
+        SHA1000132656:~ # zhaojinzhou=(1 2 3 4 5 6 7)
+        SHA1000132656:~ # echo ${zhaojinzhou[3]}
+        4
+        SHA1000132656:~ # echo ${zhaojinzhou[@]}
+        1 2 3 4 5 6 7  
+        
+变量数组；尤其注意@符号的使用。  
+* 传参数  
 
+        #!/bin/bash
+        #author:菜鸟教程
+        #url:www.runoob.com
 
+        echo "Shell 传递参数实例！";
+        echo "执行的文件名：$0";
+        echo "第一个参数为：$1";
+        echo "第二个参数为：$2";
+        echo "第三个参数为：$3";
+        为脚本设置可执行权限，并执行脚本，输出结果如下所示：
+        $ chmod +x test.sh 
+        $ ./test.sh 1 2 3
+        Shell 传递参数实例！
+        执行的文件名：./test.sh
+        第一个参数为：1
+        第二个参数为：2
+        第三个参数为：3
+    
 #### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
 
 
