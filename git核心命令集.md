@@ -5,9 +5,9 @@
 * 自动换行开关`git config --global core.autocrlf false`
 * 建立追踪`git branch -u origin/new`  
 
-    1. attention: 1. checkout to the local branch you wanna be tracked; 
-    2. '-u' (not '--u') equals "--set -upstream" 
-    3. "origin/new" (not "origin new")
+   1. checkout to the local branch you wanna be tracked, firstly;  
+   2. '-u' (not '--u') equals "--set -upstream" 
+   3. "origin/new" (not "origin new")
  
 核心命令集：  
 * 推`git push origin local_branch_name:remote_branch_name`  
