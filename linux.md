@@ -1,6 +1,14 @@
+#### sftp 命令
+
+1. 通过本地的shell登录远端机器 sftp root@100.100.100.100
+2. lls本地文件浏览；ls远端目录文件浏览
+3. put local_file remote_file
+4. get remote_file local_file
+
 
 #### shell 命令 
-chmod: change mode   
+
+chmod: change mode   
 chmod 777 拥有人；所在组；所有人。 执行；读；写。  
 +增加权限；-取消权限；  
 chmod +rwx file_name  equals chmod 777 file_name  
@@ -44,8 +52,7 @@ grep zhaojinz <zhao.txt  找含有zhaojinz的所有行
         done
 
 ---
-
-        
+      
         $#	传递到脚本的参数个数
         $*	以一个单字符串显示所有向脚本传递的参数。
         如"$*"用「"」括起来的情况、以"$1 $2 … $n"的形式输出所有参数。
