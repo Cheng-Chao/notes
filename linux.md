@@ -8,8 +8,14 @@ read, write, exec;
 
 
 grep zhaojinz <zhao.txt  找含有zhaojinz的所有行
- 
 
+    SHA1000132656:~ # zhaojinzhou=(1 2 3 4 5 6 7)
+    SHA1000132656:~ # echo ${zhaojinzhou[3]}
+    4
+    SHA1000132656:~ # echo ${zhaojinzhou[@]}
+    1 2 3 4 5 6 7
+
+变量数组；尤其注意@符号的使用。
 
 
 #### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
