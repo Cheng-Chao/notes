@@ -7,7 +7,8 @@
 ![test表达式](http://images.cnitblog.com/blog/497634/201305/29211817-06f95939c02a4fd2988c4b35dd468417.jpg)
 
 * []条件判断左右必须有空格
-* 条件语句：   
+* 管道机制的字符串截取， `echo $PATH | cut -d ':' -f 5`
+* 条件语句：    
 
       if 条件1
       then 命令1
