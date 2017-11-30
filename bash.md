@@ -14,4 +14,12 @@
       else 命令3
       fi
 
-* 
+* 实例1：
+
+      read zhao
+      echo $zhao
+      if [ -f 123.txt ]
+      then echo "exist"
+      else echo "not exist"
+      fi
+      exit 0
