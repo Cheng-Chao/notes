@@ -17,7 +17,8 @@
       else 命令3
       fi
 
-* 实例1：
+* 实例1：  
+读取存储到zhao； 打印出来； 如果123.txt存在； 则打印exist； 否则打印not exist;
 
       read zhao
       echo $zhao
@@ -27,7 +28,7 @@
       fi
       exit 0
       
-* 实例2：
+* 实例2：  
 列出所有的进程; 只含有 sbin; 以“ ”为分隔符 取第12个; 双重定向输出到屏幕和赵金洲.txt
 
       ps -ef | grep sbin | cut -d ' ' -f 12 |tee zhaojinzhou.txt  
