@@ -25,4 +25,8 @@
       then echo "exist"
       else echo "not exist"
       fi
-      exit 0
+      exit 0
+* 实例2：
+列出所有的进程; 只含有 sbin; 以“ ”为分隔符 取第12个; 双重定向输出到屏幕和赵金洲.txt
+
+      ps -ef | grep sbin | cut -d ' ' -f 12 |tee zhaojinzhou.txt  
