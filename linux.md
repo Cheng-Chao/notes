@@ -1,4 +1,4 @@
-#### 
+#### if then else fi
 
 ### sftp 命令(只要能用ssh登录就可以用是ssh协议族之一)
 
