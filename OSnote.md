@@ -1,3 +1,15 @@
+## 进程间通信方式（IPC(inter-process communication)）
+
+1. 管道  
+  1.1 无名管道  
+  1.2 有名管道
+
+2. 信号量
+3. 共享内存
+4. socket
+5. 消息队列
+6. 信号
+
 ## [内存分配算法](https://www.tutorialspoint.com/operating_system/os_memory_allocation_qa2.htm)
 1. 首次适应算法
 2. 循环首次适应算法
