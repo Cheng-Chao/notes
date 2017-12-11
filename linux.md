@@ -5,12 +5,16 @@
 #### 文件目录以树形展示2层`tree -L 2`
 1. 注意大写L
 
+---
+
 #### sftp   命令(只要能用ssh登录就可以用是ssh协议族之一)(winscp---基于ssh协议的，图形化界面软件)
 
 1. 通过本地的shell登录远端机器 sftp root@100.100.100.100
 2. lls本地文件浏览；ls远端目录文件浏览(加l的命令是本地目录lpwd)
 3. `put local_file remote_file`
 4. `get remote_file local_file`
+
+---
 
 ##### chmod --- change mode   
 chmod 777 拥有人；所在组；所有人。 执行；读；写。  
@@ -19,6 +23,8 @@ chmod 777 拥有人；所在组；所有人。 执行；读；写。  
         chmod +rwx file_name == chmod 777 file_name  
 read, write, exec;  
 
+---
+
 ##### chown --- change owner
         chown user:user_group file_name
         chown -R user:user_group ./   //递归更改当前目录所有权。  
@@ -26,7 +32,9 @@ read, write, exec;  
         
 #### grep zhaojinz <zhao.txt  找含有zhaojinz的所有行  
 
-* 数组  
+---
+
+#### 数组  
 
         SHA1000132656:~ # zhaojinzhou=(1 2 3 4 5 6 7)
         SHA1000132656:~ # echo ${zhaojinzhou[3]}
@@ -35,7 +43,10 @@ read, write, exec;  
         1 2 3 4 5 6 7  
         
 变量数组；尤其注意@符号的使用。  
-* 传参数  
+
+---
+
+#### 传参数  
 
         #!/bin/bash
         #author:菜鸟教程
@@ -72,9 +83,11 @@ read, write, exec;  
         $-	显示Shell使用的当前选项，与set命令功能相同。
         $?	显示最后命令的退出状态。0表示没有错误，其他任何值表明有错误。
 
+---
 
 #### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
 
+---
 
 #### VIM 常用
 * wq / q! : 保存修改关闭 / 不保存修改关闭
@@ -86,9 +99,12 @@ read, write, exec;  
 * 到第几行  ：25   到25行
 * u :undo
 * crtl + r :  redo 
+
+---
+
 #### 添加用户和默认目录
-* sudo useradd -d /home/zhaojinzhou -s /bin/bash zhaojinzhou 
-  passwd 密码    //设置密码  
+* sudo useradd zhaojinzhou -d /home/zhaojinzhou 
+  passwd zhaojinzhou                                 //设置密码  
 
 * uname -a 简要信息  
   cat /proc/version 内核版本  
