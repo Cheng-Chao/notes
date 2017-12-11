@@ -3,7 +3,7 @@
 #### 文件目录以树形展示2层`tree -L 2`
 1. 注意大写L
 
-#### if then else fi
+
 
 ### sftp 命令(只要能用ssh登录就可以用是ssh协议族之一)
 
@@ -15,11 +15,15 @@
 
 #### shell 命令 
 
-chmod: change mode   
+##### if then else fi
+
+##### chmod: change mode   
 chmod 777 拥有人；所在组；所有人。 执行；读；写。  
 +增加权限；-取消权限；  
 chmod +rwx file_name  equals chmod 777 file_name  
-read, write, exec;
+read, write, exec;  
+
+##### chown
 
 
 grep zhaojinz <zhao.txt  找含有zhaojinz的所有行  
