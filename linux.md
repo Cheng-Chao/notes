@@ -5,30 +5,26 @@
 #### 文件目录以树形展示2层`tree -L 2`
 1. 注意大写L
 
-
-
-### sftp 命令(只要能用ssh登录就可以用是ssh协议族之一)
+#### sftp   命令(只要能用ssh登录就可以用是ssh协议族之一)(winscp---基于ssh协议的，图形化界面软件)
 
 1. 通过本地的shell登录远端机器 sftp root@100.100.100.100
 2. lls本地文件浏览；ls远端目录文件浏览(加l的命令是本地目录lpwd)
-3. put local_file remote_file
-4. get remote_file local_file
+3. `put local_file remote_file`
+4. `get remote_file local_file`
 
-
-#### shell 命令 
-
-##### if then else fi
-
-##### chmod: change mode   
+##### chmod --- change mode   
 chmod 777 拥有人；所在组；所有人。 执行；读；写。  
-+增加权限；-取消权限；  
-chmod +rwx file_name  equals chmod 777 file_name  
-read, write, exec;  
++增加权限；-取消权限；  
 
-##### chown
+        chmod +rwx file_name == chmod 777 file_name  
+read, write, exec;  
 
-
-grep zhaojinz <zhao.txt  找含有zhaojinz的所有行  
+##### chown --- change owner
+        chown user:user_group file_name
+        chown -R user:user_group ./   //递归更改当前目录所有权。  
+        
+        
+#### grep zhaojinz <zhao.txt  找含有zhaojinz的所有行  
 
 * 数组  
 
