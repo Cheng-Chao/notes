@@ -137,7 +137,8 @@ read, write, exec;  
 
 * uget+aria2     ---- download
 
-* Xmanger 连接suse https://jingyan.baidu.com/article/454316ab52f679f7a7c03a39.html
+* Xmanger 连接suse https://jingyan.baidu.com/article/454316ab52f679f7a7c03a39.html  
+教程中/etc/sysconfig/displaymanage应为/etc/sysconfig/displaymanager
 #### 不常用场景
 
 * 
