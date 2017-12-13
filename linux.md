@@ -2,7 +2,7 @@
 ---
 #### GDB 命令精简版：
 ---
-
+##### 开始
 
 * `g++ -g quicksort.cpp -o quicksort.out`  
 
@@ -10,7 +10,12 @@
 
 * `gdb quicksort.out`  
 
-    * 进入main函数进行调试了。  
+    * 进入main函数进行调试了。  
+
+* `set stop-on-solib-events 0`
+    * 遇到共享库的时候不暂停
+
+---
 
 ##### 调用栈
 
@@ -26,12 +31,34 @@
 | ---- | ---------------- |
 |`b (break) quicksort.cpp:100`   |在quicksort.cpp 100行打断点  |
 |`b InitContextPreCheckProc::_StartWork`|在InitContextPreCheckProc::\_StartWork 函数开始打断点   |
-|`break +10` |往后移10行|
-|`break -10` |往前移10行 |
+|`info b`|显示所有的断点|
+|`d(delete)` 2|删除id为2的断点(info b中的num)|
 
 ---
+##### 显示代码
+
+|语法|用途 |
+| ---- | ---------------- |
+|`l` |显示当前断点出代码  |
+|`l func_name`|显示函数代码|
+|`l 100,120`|显示第100-120行的函数代码|
+|`layout`|TUI展示代码|
+
+----
+##### 控制执行
+
+|语法|用途 |
+| ---- | ---------------- |
+|`c(continue) ` |运行到下一断点出（vs F5）|
+|`n(next) [10]`|单步，执行10行，不进入调用函数(vs F10)|
+|`s(step) [10]`|单步,执行10行, 进入调用函数（vs F11）|
+|`f(finish)`|退出当前函数（vs shift F11）|
+|`return [expr] (不能简写，r含义很多)`|退出当前函数,剩下的函数都不执行，打桩返回值\[expr\]（vs shift F11）|
+
+
 
 ##### 删除断点
+
 |语法|用途 |
 | ---- | ---------------- |
 |clear |删除所有断点  |
@@ -39,17 +66,13 @@
 |clear filename:function |删除文件：函数断点|
 |clear linenum|删除行断点|
 |clear filename:linenum |删除文件行断点|
-
-
-
-
-##### 显示代码
-
-|语法|用途 |
-| ---- | ---------------- |
-|`l` |显示当前断点出代码  |
 |`l +10`|往下移动10行 往上移动10行 |
 |`l -10` |往上移动10行 |
+|`break +10` |往后移10行|
+|`break -10` |往前移10行 |
+
+
+
 
 
 ---
