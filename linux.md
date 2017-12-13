@@ -10,14 +10,18 @@
 
 * `gdb quicksort.out`  
 
-    * 进入main函数进行调试了。  
+    * 进入main函数进行调试了。  
 
 * `r`  
 
     * 开始调试  
 
 * `set stop-on-solib-events 0`
-    * 遇到共享库的时候不暂停
+    * 遇到共享库的时候不暂停
+
+* `q`  
+
+    * 退出GDB  
 
 ---
 
