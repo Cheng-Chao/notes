@@ -1,6 +1,20 @@
-#### plink  在远端机器上执行命令
+#### GDB 命令精简版：
+* `g++ -g quicksort.cpp -o quicksort.out`  
 
-#### 查看用户组信息    $ cat /etc/group
+    * 注意-g选项，代表的是编译的时候将源码中的行数相关信息一起编译进目标代码。  
+
+* `gdb quicksort.out`  
+
+    * 进入main函数进行调试了。  
+
+* `info stack 10`  
+
+    * 就是callstack，打印最上面10个  
+    * `info help` 非常有用  
+        
+
+
+#### plink  在远端机器上执行命令
 
 #### 文件目录以树形展示2层`tree -L 2`
 1. 注意大写L
@@ -34,58 +48,6 @@ read, write, exec;  
 
 ---
 
-#### 数组  
-
-        SHA1000132656:~ # zhaojinzhou=(1 2 3 4 5 6 7)
-        SHA1000132656:~ # echo ${zhaojinzhou[3]}
-        4
-        SHA1000132656:~ # echo ${zhaojinzhou[@]}
-        1 2 3 4 5 6 7  
-        
-变量数组；尤其注意@符号的使用。  
-
----
-
-#### 传参数  
-
-        #!/bin/bash
-        #author:菜鸟教程
-        #url:www.runoob.com
-
-        echo "Shell 传递参数实例！";
-        echo "执行的文件名：$0";
-        echo "第一个参数为：$1";
-        echo "第二个参数为：$2";
-        echo "第三个参数为：$3";
-        为脚本设置可执行权限，并执行脚本，输出结果如下所示：
-        $ chmod +x test.sh 
-        $ ./test.sh 1 2 3
-        Shell 传递参数实例！
-        执行的文件名：./test.sh
-        第一个参数为：1
-        第二个参数为：2
-        第三个参数为：3
-
-        echo "-- \$* 演示 ---"
-        for i in "$*"; do
-            echo $i
-        done
-
-其中：   
-
-        $#	传递到脚本的参数个数
-        $*	以一个单字符串显示所有向脚本传递的参数。
-        如"$*"用「"」括起来的情况、以"$1 $2 … $n"的形式输出所有参数。
-        $$	脚本运行的当前进程ID号
-        $!	后台运行的最后一个进程的ID号
-        $@	与$*相同，但是使用时加引号，并在引号中返回每个参数。
-        如"$@"用「"」括起来的情况、以"$1" "$2" … "$n" 的形式输出所有参数。
-        $-	显示Shell使用的当前选项，与set命令功能相同。
-        $?	显示最后命令的退出状态。0表示没有错误，其他任何值表明有错误。
-
-
----
-
 #### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
 
 ---
@@ -104,6 +66,9 @@ read, write, exec;  
 ---
 
 #### 添加用户和默认目录
+
+* 查看用户组信息    $ cat /etc/group  
+
 * sudo useradd zhaojinzhou -d /home/zhaojinzhou 
   passwd zhaojinzhou                                 //设置密码  
   
