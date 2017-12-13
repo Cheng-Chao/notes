@@ -1,17 +1,39 @@
+
+---
 #### GDB 命令精简版：
+---
+
+
 * `g++ -g quicksort.cpp -o quicksort.out`  
 
-    * 注意-g选项，代表的是编译的时候将源码中的行数相关信息一起编译进目标代码。  
+    * 注意`-g`选项，代表的是编译的时候将源码中的行数相关信息一起编译进目标代码。
 
 * `gdb quicksort.out`  
 
     * 进入main函数进行调试了。  
 
-* `info stack 10`  
+##### 调用栈
+
+* `bt(backtrace) 10 `  别名包括\(`info stack`  `where` \)
 
     * 就是callstack，打印最上面10个  
     * `info help` 非常有用  
-        
+
+---
+##### 打断点
+
+* `b (break) quicksort.cpp:100`  
+
+    * 在quicksort.cpp 100行打断点。  
+
+* `b InitContextPreCheckProc::_StartWork`  
+
+    * 在InitContextPreCheckProc::\_StartWork 函数开始打断点  
+
+##### 
+---
+
+---
 
 
 #### plink  在远端机器上执行命令
@@ -29,13 +51,16 @@
 4. `get remote_file local_file`
 
 ---
+#### linux --change user priority
+---
 
 ##### chmod --- change mode   
 chmod 777 拥有人；所在组；所有人。 执行；读；写。  
 +增加权限；-取消权限；  
 
         chmod +rwx file_name == chmod 777 file_name  
-read, write, exec;  
+        
+for> read, write, exec;  
 
 ---
 
@@ -43,7 +68,9 @@ read, write, exec;  
         chown user:user_group file_name
         chown -R user:user_group ./   //递归更改当前目录所有权。  
         
-        
+---
+---
+
 #### grep zhaojinz <zhao.txt  找含有zhaojinz的所有行  
 
 ---
