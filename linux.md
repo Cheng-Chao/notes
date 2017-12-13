@@ -22,15 +22,36 @@
 ---
 ##### 打断点
 
-* `b (break) quicksort.cpp:100`  
+|语法|用途 |
+| ---- | ---------------- |
+|`b (break) quicksort.cpp:100`   |在quicksort.cpp 100行打断点  |
+|`b InitContextPreCheckProc::_StartWork`|在InitContextPreCheckProc::\_StartWork 函数开始打断点   |
+|`break +10` |往后移10行|
+|`break -10` |往前移10行 |
 
-    * 在quicksort.cpp 100行打断点。  
+---
 
-* `b InitContextPreCheckProc::_StartWork`  
+##### 删除断点
+|语法|用途 |
+| ---- | ---------------- |
+|clear |删除所有断点  |
+|clear function |删除函数断点 |
+|clear filename:function |删除文件：函数断点|
+|clear linenum|删除行断点|
+|clear filename:linenum |删除文件行断点|
 
-    * 在InitContextPreCheckProc::\_StartWork 函数开始打断点  
 
-##### 
+
+
+##### 显示代码
+
+|语法|用途 |
+| ---- | ---------------- |
+|`l` |显示当前断点出代码  |
+|`l +10`|往下移动10行 往上移动10行 |
+|`l -10` |往上移动10行 |
+
+
 ---
 
 ---
