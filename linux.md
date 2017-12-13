@@ -43,7 +43,7 @@
 |`b InitContextPreCheckProc::_StartWork`|在InitContextPreCheckProc::\_StartWork 函数开始打断点   |
 |`info b`|显示所有的断点|
 |`d(delete)` 2-4|删除id为2-4的断点(info b中的num)|
-|`clear 21-50`|删除21-50行的断点|
+|`clear 21`|删除21行的断点|
 |`disable 2-4`|disable id为2-4的断点|
 
 ---
