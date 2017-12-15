@@ -29,5 +29,5 @@
 * 显示简单的图形界面 `git log --graph`
 
 
-    
+* 获取配置信息 `git config --get [tab]`
 
