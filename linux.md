@@ -1,4 +1,7 @@
 
+
+#### 神速 alias code="cd /home/jzz/code"
+
 #### [GDB命令精简](https://github.com/zhaojinzhou/notes/blob/master/GDB.md)
 ---
 
