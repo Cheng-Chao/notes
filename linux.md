@@ -2,6 +2,12 @@
 
 #### 神速 alias code="cd /home/jzz/code"
 
+| command | use |
+|----|---|
+| vim ~/.bashrc | 编辑bash配置 |
+|alias code="cd /home/jzz/code"| **永久**增加alias|
+|source ~/.bashrc | 使修改生效|
+
 #### [GDB命令精简](https://github.com/zhaojinzhou/notes/blob/master/GDB.md)
 ---
 
