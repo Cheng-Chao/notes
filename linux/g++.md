@@ -14,7 +14,7 @@
 |g++ -E quicksort.cpp [> quicksort_back.cpp]|展开头文件和宏定义，\[定向到quicksort_back.cpp\]\(默认命令行中输出\)|
 |g++ -S quicksort.cpp|生成quicksort.s,里面是汇编语言,可以用vim查看汇编源码|
 |g++ -c quicksort.cpp|生成目标码，用于静态库quicksort.o(需要ar -crv生成静态库)|
-|g++ quicksort.cpp -o quicksort.out -I ./|生成可执行文件quicksort.out，其中-I代表include头文件的寻找目录|
+|g++ -g quicksort.cpp -o quicksort.out -I ./|将源码信息包含，生成可执行文件quicksort.out，其中-I代表include头文件的寻找目录|
 
 ----
 
