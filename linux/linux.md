@@ -1,4 +1,4 @@
-
+#### [g++ 核心命令](https://github.com/zhaojinzhou/notes/blob/master/linux/g++.md)
 
 #### 神速 alias code="cd /home/jzz/code"
 
