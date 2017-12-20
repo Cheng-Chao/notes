@@ -62,6 +62,8 @@ for> read, write, exec;  
 
 #### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
 #### locate file_name 傻瓜式搜索
+        locate *.log|grep $('pwd') 搜索当前文件夹下的*.log
+
 
 ---
 
