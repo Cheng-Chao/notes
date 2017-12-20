@@ -1,4 +1,12 @@
 
+#### 命令的替换
+$(pwd)  
+()用来表示命令结果替换改变量  
+locate .log|grep $(pwd)
+
+vim $(locate .cpp|grep $(pwd))
+
+
 #### 数组  
 
         SHA1000132656:~ # zhaojinzhou=(1 2 3 4 5 6 7)
