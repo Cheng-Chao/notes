@@ -1,3 +1,6 @@
+
+
+
 #### [g++ 核心命令](https://github.com/zhaojinzhou/notes/blob/master/linux/g++.md)
 
 #### 神速 alias code="cd /home/jzz/code"
@@ -58,6 +61,7 @@ for> read, write, exec;  
 ---
 
 #### find . -iname zhaojinzhou.txt   .是相对路径； iname忽略大小写按名字查找； 文件名
+#### locate file_name 傻瓜式搜索
 
 ---
 
