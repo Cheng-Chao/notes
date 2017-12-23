@@ -4,6 +4,7 @@
 |---|---|
 |p|paste|
 |d|delete|
+|||
 |:/zhao|在当前文本中搜索zhao|
 |u|undo|
 |crtl+r|redo|
@@ -15,7 +16,7 @@
 
 |command|use|
 |---|---|
-|:/zhao|在当前文本中搜索zhao|
+|/zhao|在当前文本中搜索zhao|
 |**n**|**next depend:/zhao**|
 |**N**|**previous depend:/zhao**|
 |\*|向下搜索当前光标下的word|
