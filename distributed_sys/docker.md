@@ -27,6 +27,9 @@ docker 是容器引擎：
 |----|----|
 |docker network ls|显示所有网络|
 |docker network connect network_id docker_id|  the docker joins into the network |
+docker network inspect bridge
+
+https://docs.docker.com/engine/userguide/networking/#the-default-bridge-networkdocker network inspect bridge
 
 
 
