@@ -2,6 +2,8 @@
 
 docker 是容器引擎：  
 
+----
+#### basic
 
 | command | use |
 |-------|--------|
@@ -11,6 +13,23 @@ docker 是容器引擎：
 |docker run -i(interative) -t|(返回伪tty) -d(后台)  镜像名称 bin/bash|
 |docker run -it  ubuntu:lastest /bin/bash| |
 |docker build -t runoob/centos:6.7 .| 镜像名称|
+
+
+----
+#### network
+
+* bridge  default
+* container
+* host
+* none
+
+|command|use|
+|----|----|
+|docker network ls|显示所有网络|
+|docker network connect network_id docker_id|  the docker joins into the network |
+
+
+
         
        
 基本命令：  
