@@ -107,7 +107,16 @@ for> read, write, exec;  
 * ssh name@remoteserver 命令行登录远程linux机器
 
 #### 常用的软件
+
+* apt-get update
+
 * boot_repair    ---- 修复boot  
+
+* apt install net-tools       # ifconfig 
+
+* apt install iputils-ping     # ping
+
+
 
 ----  
 
@@ -127,6 +136,8 @@ for> read, write, exec;  
 * 自动化linux集群管理运维软件 puppet
 
 puppet master-slave 模式。
+
+
 
 #### 不常用场景
 
