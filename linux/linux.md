@@ -123,6 +123,11 @@ for> read, write, exec;  
 
 * Xmanger 连接suse https://jingyan.baidu.com/article/454316ab52f679f7a7c03a39.html  
 教程中/etc/sysconfig/displaymanage应为/etc/sysconfig/displaymanager
+
+* 自动化linux集群管理运维软件 puppet
+
+puppet master-slave 模式。
+
 #### 不常用场景
 
 * 
