@@ -1,3 +1,10 @@
+####　启用鼠标移动
+|command|use|
+|---|---|
+|:set mouse=a|使用鼠标移动光标|
+
+
+
 #### 基本命令
 
 |command|use|
