@@ -2,7 +2,7 @@
 
 |commmand|use|
 |---|---|
-|crtl +w| 多次 自动换行|
+|crtl +w| 多次 自动换窗口|
 
 
 
