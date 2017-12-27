@@ -1,3 +1,18 @@
+#### NerdTree
+
+|commmand|use|
+|---|---|
+|crtl +w| 多次 自动换行|
+
+
+
+#### 用户配置文件
+
+~/.vimrc
+
+修改后 source ~/.vimrc (runtime contral)
+
+
 
 #### 启用鼠标移动
 
