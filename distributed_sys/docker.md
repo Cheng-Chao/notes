@@ -3,6 +3,13 @@
 docker 是容器引擎：  
 
 ----
+#### mount
+|command|use|
+|----|----|
+|docker run -v /home/host_path:/container_path/|mount host_path to container_path|
+
+
+----
 #### basic
 
 | command | use |
@@ -27,7 +34,7 @@ docker 是容器引擎：
 |----|----|
 |docker network ls|显示所有网络|
 |docker network connect network_id docker_id|  the docker joins into the network |
-docker network inspect bridge
+|docker network inspect bridge|检查目前docker中所有container的网络状况（IP等等）|
 
 https://docs.docker.com/engine/userguide/networking/#the-default-bridge-networkdocker network inspect bridge
 
