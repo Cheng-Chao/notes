@@ -34,6 +34,11 @@
 2. lls本地文件浏览；ls远端目录文件浏览(加l的命令是本地目录lpwd)
 3. `put local_file remote_file`
 4. `get remote_file local_file`
+#### scp 
+
+1. scp /home/daisy/full.tar.gz root@172.19.2.75:/home/root 
+2. scp root@172.19.2.75:/home/daisy/full.tar.gz /home/root 
+
 
 ---
 #### linux --change user priority
