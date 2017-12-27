@@ -4,6 +4,7 @@
 |command|use|
 |---|---|
 |:set mouse=a|使用鼠标移动光标|
+|:set mouse-=a|使用鼠标移动光标|
 
 
 
