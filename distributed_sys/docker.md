@@ -31,7 +31,12 @@ docker network inspect bridge
 
 https://docs.docker.com/engine/userguide/networking/#the-default-bridge-networkdocker network inspect bridge
 
+#### 文件互传
 
+|command| use|
+|----|----|
+|docker cp /home/host dockerid:/home/| copy files in host to container |
+|docker cp dockerid:/home /home|copy files in container to host|
 
         
        
