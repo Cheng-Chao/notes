@@ -1,4 +1,7 @@
-
+|command|use|
+|---|---|
+|file a.out|用来识别文件类型 | 
+|strip a.out| 删除a.out的目标码|
 
 
 #### [g++ 核心命令](https://github.com/zhaojinzhou/notes/blob/master/linux/g++.md)
