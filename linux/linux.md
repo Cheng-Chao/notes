@@ -1,4 +1,11 @@
 
+----
+
+#### chroot命令：增加了系统的安全性，限制了用户的权力
+|command|use|
+|----|----|
+|chroot target /bin/sh|将target作为根目录(如安装的busybox安装路径)|
+
 ---
 
 #### du命令
@@ -6,6 +13,10 @@
 |command|use|
 |----|----|
 |`du \| sort -n -r`| 查看文件按文件大小排序 逆序|
+|`du -s`| summary|
+
+|`du -h`| easy to read 1000 - 1k(useless)|
+
 
 
 
