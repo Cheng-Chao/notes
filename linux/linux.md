@@ -1,6 +1,11 @@
+
+---
+
+---
+
 |command|use|
 |---|---|
-|file a.out|用来识别文件类型 | 
+|file a.out|用来识别文件类型;看目标码符号表是否还在 | 
 |strip a.out| 删除a.out的目标码|
 
 
@@ -89,6 +94,12 @@ for> read, write, exec;  
 * crtl + r :  redo 
 
 ---
+
+#### uncommon knowledge
+
+/bin/bash 和 /bin/sh的区别：是否是命令和代码风格是否符合--posix标准； sh 是bash的--posix标准化解释器。
+
+-----
 
 #### 添加用户和默认目录
 
