@@ -20,6 +20,10 @@ docker 是容器引擎：
 |docker run -i(interative) -t|(返回伪tty) -d(后台)  镜像名称 bin/bash|
 |docker run -it  ubuntu:lastest /bin/bash| |
 |docker build -t runoob/centos:6.7 .| 镜像名称|
+|docker rm \[-f\] docker_id| remove stopped\[running\] container|
+|docker rmi image_name| remove images|
+|dokcer stop \[rm\] $(docker ps -q)|stop\[remove\] all running containers |
+
 
 
 ----
