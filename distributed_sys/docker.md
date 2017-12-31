@@ -1,4 +1,9 @@
+#### export
 
+|command|use|
+|----|----|
+|docker export -o target.tar container_id| `-o` name of the target tar|
+|docker export container_id > target.tar|`>` redirect|
 
 ----
 #### mount
