@@ -1,3 +1,19 @@
+#### string
+
+all var is string in default 
+
+|command|use|
+|----|----|
+|i=1;  ||
+|${i}+=2; |  # ${i}=12 |
+|j=3;  ||
+|k=${i}${j}| # k=123  |
+|m=${k}".tar"${i} |#m=123.tar12|
+
+
+
+
+
 
 #### 命令的替换
 $(pwd)  
