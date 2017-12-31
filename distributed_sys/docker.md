@@ -3,7 +3,8 @@
 |command|use|
 |----|----|
 |docker export -o target.tar container_id| `-o` name of the target tar|
-|docker export container_id > target.tar|`>` redirect|
+|docker export container_id > $(pwd)/target.tar|`>` redirect|
+|for i in $(docker ps -q); do docker export ${i} > ${i} ;done|export all runing container|
 
 ----
 #### mount
