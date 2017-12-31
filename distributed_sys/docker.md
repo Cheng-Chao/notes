@@ -25,7 +25,7 @@
 |docker rmi image_name| remove images|
 |dokcer stop \[rm\] $(docker ps -q)|stop\[remove\] all running containers |
 |docker tag long_name_image short_name| tag the image|
-|`docker inspect container_id \[images_name\]`|inspect the detail setting of the container \[images\]|
+|docker inspect container_id \[images_name\]|inspect the detail setting of the container \[images\]|
 
 
 
