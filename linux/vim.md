@@ -35,6 +35,8 @@
 |crtl+r|redo|
 |v|进入视图模式，可以选中文本|
 |:wq ,q , q!, qall, wall，wqall|保存退出，退出，不保存， 退出所有，保存所有， 保存所有退出|
+|:set number|show line number|
+|:set nonumber|not show line number|
 
 ---
 #### 搜索
