@@ -14,14 +14,19 @@
 1. return reference的风险：  
 1.1 reference对象可能不存在(stack上分配)。  
 1.2 reference对象在堆上分配，指针无法获取以删除。(`const rational& operatpr*(){return new rational; }   a*b*c `"这种情况必然会导致泄露")  
-1.3 reference对象可能会被修改。  
+1.3 reference对象可能会被修改。
+1.4 如果返回了static变量则需要注意多线程。
 
 2. 不要返回所定义的函数内创建的任何local对象(无论stack或者heap)  。
 
-3. 要注意所返回的数据的敏感性。
+3. 要注意所返回的数据的敏感性。  
+
+4. 不要返回static变量（除非想写成单例，需要double check NULL,锁）.
 
 ---
-
+## Item 22th Declare data private
+1. 应该将数据设为private, 提供 getter;
+---
 
 ## Item 24th declare non-member function when all paras need type conversions
 
