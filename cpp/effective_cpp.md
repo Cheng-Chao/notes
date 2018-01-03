@@ -1,3 +1,12 @@
+## Item 20th pass　by reference to const rather than pass by value
+1. 很明显，如果pass by value 需要调用构造函数和析构函数，代价比较大。reference则不需要，效率比较高。
+2. 内置的基本类型和stl中的迭代器， 函数对象pass by value可能效率更高。
+3. 发生slicing：  
+    3.1 如果pass by value 函数参数是父类，而传入子类一定会发生slicing  
+    3.2 如果pass by reference 不会发生slicing，类似指针；
+    
+
+
 ## Item 24th declare non-member function when all paras need type conversions
 
 1. 针对一个需要实现rational类。满足交换律和int乘法。
