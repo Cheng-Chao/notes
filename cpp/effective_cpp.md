@@ -49,8 +49,15 @@
 
 
 ## Item 25th  
+## Item 32th 李氏替换原则
+
+1. 适用于父类的地方，子类一定合适。或者可以说，父类所拥有的特性，子类都应该拥有。或者可以说正确处理is-a的关系。
+
+
+-----
 
 ## Item 36th do not change a non virtual member function inherited from father class
 
 1. 这里主要注意如果是 non virtual 则不会进行多态，如果用一个父类指针和一个子类指针指向同一个子类对象，调用的函数不是相同的而函数，而是父指针调用父类函数，子指针调用子类函数（虽然是同一实例，这里的话容易出错）。
 
+-------
