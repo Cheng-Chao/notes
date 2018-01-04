@@ -1,4 +1,4 @@
-###实验证明，vector使用assign而不用重新构造函数的效率要高。assign()是摧毁原有任何数据，直接成立新vector，size也变，但内存不变，除非新vector内存要求比老的大。
+### 实验证明，vector使用assign而不用重新构造函数的效率要高。assign()是摧毁原有任何数据，直接成立新vector，size也变，但内存不变，除非新vector内存要求比老的大。
 
 
 # c++ notes
