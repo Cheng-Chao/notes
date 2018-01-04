@@ -49,3 +49,8 @@
 
 
 ## Item 25th  
+
+## Item 36th do not change a non virtual member function inherited from father class
+
+1. 这里主要注意如果是 non virtual 则不会进行多态，如果用一个父类指针和一个子类指针指向同一个子类对象，调用的函数不是相同的而函数，而是父指针调用父类函数，子指针调用子类函数（虽然是同一实例，这里的话容易出错）。
+
