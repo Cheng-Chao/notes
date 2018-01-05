@@ -8,30 +8,29 @@
 1.3 解决方法：  
   1.3.1 利用友缘类可以访问私有成员但是没办法被继承实现。
   
-`class Usable;
- 
-    class Usable_lock {
+      class Usable;
+      class Usable_lock {
         friend class Usable;
-    private:
+      private:
         Usable_lock() {}
         Usable_lock(const Usable_lock&) {}
-    };
- 
-    class Usable : public virtual Usable_lock {
+      };
+
+      class Usable : public virtual Usable_lock {
         // ...
-    public:
+      public:
         Usable();
         Usable(char*);
         // ...
-    };
- 
-    Usable a;
- 
-    class DD : public Usable { };
- 
-    DD dd;  // error: DD::DD() cannot access
-            // Usable_lock::Usable_lock(): private  member`
-            
+      };
+
+      Usable a;
+
+      class DD : public Usable { };
+
+      DD dd;  // error: DD::DD() cannot access
+            // Usable_lock::Usable_lock(): private  member
+
 Usable继承了 Usable_lock；因为是友缘所以可以访问私有成员-构造函数。  
 但是DD继承了Usable不是友缘所有无法调用父类Usable_lock构造函数。
 
