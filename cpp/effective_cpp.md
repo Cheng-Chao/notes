@@ -4,7 +4,7 @@
      * 如void print(shard_ptr\<int\> a, int a); 请不要使用 ~print(shard_ptr\<int\>(new int(10)), 9)）~
      * 应该用 int \*a = new int\(10\);  print(shard_ptr<int>(a),9);
 - 原因是c++编译器在执行时1. print ; 2. new in() 3. shard_ptr<>() 3者的执行顺序不一定。 可能先2,1(异常)，3；导致资源泄露。
-
+- 另外在项目中的经验是：先new(); new完以后立刻放入智能指针中，中间不允许出现任何代码。（资源和资源管理器之间如果出现任何可能的异常都会导致资源泄露）
 
 
 ---
