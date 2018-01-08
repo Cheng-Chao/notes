@@ -1,8 +1,9 @@
 ## Item 17 store newd OBJ in smart pointer in standalone statements
 
 - 当函数参数为智能指针时， 请不要直接在参数中转换指针为智能指针，会导致资源泄露。  
-    * 如void print(shard_ptr\<int\> a, int a); 请不要使用 ~print(shard_ptr\<int\>(new int(10)), 9)）~   
-    * 应该用 int \*a = new int\(10\);  print(shard_ptr<int>(a),9);
+     * 如void print(shard_ptr\<int\> a, int a); 请不要使用 ~print(shard_ptr\<int\>(new int(10)), 9)）~
+     * 应该用 int \*a = new int\(10\);  print(shard_ptr<int>(a),9);
+- 原因是c++编译器在执行时1. print ; 2. new in() 3. shard_ptr<>() 3者的执行顺序不一定。 可能先2,1(异常)，3；导致资源泄露。
 
 
 
