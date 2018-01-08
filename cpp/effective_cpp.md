@@ -1,3 +1,14 @@
+## Item 17 store newd OBJ in smart pointer in standalone statements
+
+- 当函数参数为智能指针时， 请不要直接在参数中转换指针为智能指针，会导致资源泄露。  
+    * 如void print(shard_ptr\<int\> a, int a); 请不要使用 ~print(shard_ptr\<int\>(new int(10)), 9)）~   
+    * 应该用 int \*a = new int\(10\);  print(shard_ptr<int>(a),9);
+
+
+
+---
+
+
 ## Item 20th pass　by reference to const rather than pass by value
 1. 很明显，如果pass by value 需要调用构造函数和析构函数，代价比较大。reference则不需要，效率比较高
 
