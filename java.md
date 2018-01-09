@@ -2,8 +2,8 @@
  #### 十大Intellij IDEA快捷键
  
  * ctrl alt l  格式化
- * ctrl \/行注释 
- * ctrl shift \/ 段注释
+ * ctrl \/行注释 （解注释）
+ * ctrl shift \/ 段注释 （解注释）
  
  
  1. 一个java文件中，可用有多个类，但public修饰的类只能有一个，并且与文件名同名。
