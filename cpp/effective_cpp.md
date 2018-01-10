@@ -12,9 +12,10 @@
 
 - 接口设计首先应该尽可能做到：编译通过即正确使用。
 - 接口参数使用类型和顺序都应该是要考虑的内容。  
-  + 例如setDate(int month, int day, int year) 这样的接口会导致误用（顺序，类型和取值的误用）。
+  + 例如void setDate(int month, int day, int year) 这样的接口会导致误用（顺序，类型和取值的误用）。
   + 解决方法: 1. 限制类型; 2. 限制取值范围。
-    * 
+    * 参数传类型而非int; void setDate(class month, class day, class year)（保证类型和顺序）;
+    * 限制month 和day 的取值范围，将构造函数私有化，提供static getter获取1-12月实例。
 ---
 
 
