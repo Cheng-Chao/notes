@@ -32,6 +32,15 @@ class later{
     pre inst;
 };
 
+class later1{
+    public:
+    later(pre& input):inst(input){
+          cout<<"later1 const"<<endl;
+    }
+    
+    pre inst;
+};
+
 
 int main()
 {
