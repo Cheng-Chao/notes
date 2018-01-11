@@ -1,6 +1,7 @@
 //#include "header.h"	//AnycodeX includes the header.h by default, needn't cancle the notation.
 #include <iostream>
-using namespace std;
+#include "test_initial_list.h"
+
 
 
 
