@@ -34,6 +34,18 @@
   1. local-static如果用不到，不需要构造和析构代价.
   2. 如果non-local-static 对象之间有依赖关系，`static a ;class a{ static b;}` 你无法保证b在a之前被初始化。（**c++编译器无法保证non-local-static对象的初始化顺序。**）
 
+## Item 5 function created by the compiler by default
+
+* 6 function by default :
+    - constructor
+    - copy constructor
+    - opertator =()
+    - destructor
+    - operator &()
+    - operator &() const
+
+
+
 ---
 
 
