@@ -22,9 +22,9 @@ class pre{
 };
 
 
-class later{
+class later_normal{
     public:
-    later(pre& input){
+    later_normal(pre& input){
         inst = input;
         cout<<"later const"<<endl;
     }
@@ -32,9 +32,9 @@ class later{
     pre inst;
 };
 
-class later1{
+class later_initial_list{
     public:
-    later(pre& input):inst(input){
+    later_initial_list(pre& input):inst(input){
           cout<<"later1 const"<<endl;
     }
     
@@ -42,10 +42,28 @@ class later1{
 };
 
 
+
+void test_initial_list(){
+	pre exa(2);
+	cout<<"-----------end of construct of pre---------"<<endl;
+	
+	later_normal exac(exa);
+	
+	cout<<"-----------end of construct of initialize in construct func---------"<<endl;
+	
+	
+	later_initial_list exac_initial_list(exa);
+	
+	cout<<"-----------end of construct of initialize in initial list---------"<<endl;
+	
+}
+
+
+
 int main()
 {
-	pre exa(2);
 	
-	later exac(exa);
+	test_initial_list();
+
 	return 0;
 }
