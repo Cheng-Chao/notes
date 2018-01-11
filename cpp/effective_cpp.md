@@ -45,7 +45,13 @@
     - operator &() const
 
 
+---
 
+## Item 10 为 operator= 实现一个返回自身引用的重载函数版本
+*  `class_name & operator=\(class_name &input\)     {this->val = input.val; return \*this}`
+* 主要是为了a=b=c=d=10 这种场景。作者的推荐而已。
+
+## Item 11 在 operator= 实现一个
 ---
 
 ## Item 13 Use obj to manage resource
