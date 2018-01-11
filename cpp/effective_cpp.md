@@ -1,3 +1,24 @@
+## Item 1 view c++ as a federation languages
+
+- c++ 有很多用法其中重点包括：
+  + c语言风格
+  + object-oriented c++
+  + template c++
+  + STL
+ 
+---
+
+## Item 2 prefer enum , consts, and inlines to #define 
+
+- 尽可能不用宏定义
+
+---
+
+## Item 3 use const whenever possiable
+- 尽可能使用const
+
+---
+
 ## Item 4 initialize obj before they are used
     
 - 建议初始化；尽管全局或者静态的基本类型，编译器会自动初始化，一般为0。
