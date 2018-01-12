@@ -1,3 +1,9 @@
+#### 命令的顺序会影响执行效果的。例如nginx 
+
+|command|use|
+|---|---|
+|docker run -p 8080:80 --name nginx_1th --network=host -d nginx| -d 不能放前面|
+
 #### export
 
 |command|use|
