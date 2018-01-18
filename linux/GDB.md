@@ -23,10 +23,9 @@
 
     * 退出GDB  
 
+* set var width=47
+    * 修改变量值
 
-
-
-set var width=47
 ---
 
 ##### 调用栈
