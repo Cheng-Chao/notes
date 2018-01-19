@@ -26,6 +26,7 @@
 * set var width=47
     * 修改变量值
 
+* shell ls  运行shell命令
 ---
 
 ##### 调用栈
