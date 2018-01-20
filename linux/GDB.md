@@ -27,6 +27,8 @@
     * 修改变量值
 
 * shell ls  运行shell命令
+
+* cat /proc/sys/kernel/core_pattern     core-dump的路径设置
 ---
 
 ##### 调用栈
