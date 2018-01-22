@@ -1,9 +1,12 @@
-技巧:
+#### iptables
+1. iptables只是Linux防火墙的管理工具，真正实现防火墙功能的是 netfilte，它是Linux内核中实现包过滤的内部结构。
+
+
+#### 技巧:
 
 find . -iname test_nsa_mcg.cpp
 
 vim $(!!)
-
 其中!! 代表前一次的命令。  直接打开上次查找的文件。
 
 ----
