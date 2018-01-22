@@ -1,3 +1,15 @@
+#### 关于修改ssh端口和利用防火墙进行删选端口的实践
+
+1. 修改ssh端口为6000.  
+        1.1 `vi /etc/ssh/sshd_config` Port 6000  
+        1.2 `service sshd restart`
+
+至此实验过用6000端口也可以登录ssh。
+
+2.
+
+
+
 #### iptables
 1. iptables只是Linux防火墙的管理工具，真正实现防火墙功能的是 netfilte，它是Linux内核中实现包过滤的内部结构。
 
