@@ -1,6 +1,19 @@
 
 ---
 #### GDB 命令精简版：
+1. 查看结构体大小  直接p sizeof(class_name)
+
+2. 将输出的相关信息存到file中譬如码流，调用栈
+
+(gdb) set logging file <file name>
+
+(gdb) set logging on
+
+(gdb) info functions
+
+(gdb) set logging off
+
+
 ---
 ##### 开始
 
