@@ -20,6 +20,13 @@
 * 将基本类型装包为类，将类解包为基本类型。 目前jvm已实现自动装解包
 * integerCache类中会有-128-127的integer类缓存。
 * ==号针对基本类型比较值，针对类比较引用。
-integer(100) == integer(100) true
-integer(200) == integer(200) false
+    Integer a= 100
+    Integer b =100
+    a==b 
+    true
+
+    Integer a=new Integer(100)
+    Integer b=new Integer(100)
+    a==b
+    false
 
