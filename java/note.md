@@ -1,3 +1,6 @@
+#### 任何变量和字符串相连接返回值都是字符串
+
+
 #### basic concepts
 * boxing and unboxing
   - boxing : put a basic type into a class
