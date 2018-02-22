@@ -1,15 +1,12 @@
+#### 类加载
+
+当运行一个程序的时候，JVM启动，运行bootstrapclassloader，该ClassLoader加载java核心API（ExtClassLoader和AppClassLoader也在此时被加载），然后调用ExtClassLoader加载扩展API，最后AppClassLoader加载CLASSPATH目录下定义的Class，这就是一个程序最基本的加载流程。
 
 #### 自旋锁spinlock
 
 忙等待（本线程不停获取锁）和让权等待（遇等待直接让出）
 
 
-
-
- 
-
-
- 
  #### 十大Intellij IDEA快捷键
  
  * ctrl alt l  格式化
