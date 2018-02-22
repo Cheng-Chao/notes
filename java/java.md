@@ -1,9 +1,9 @@
 
 
-
 #### 锁的状态总共有四种：无锁状态、偏向锁、轻量级锁和重量级锁。
 ![makword锁](http://img.blog.csdn.net/20151217151455512?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
+轻量级锁是为了在线程交替执行同步块时提高性能，而偏向锁则是在只有一个线程执行同步块时进一步提高性能。
 
 
 #### 类加载
