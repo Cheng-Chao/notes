@@ -1,3 +1,7 @@
+#### for 循环
+ for i in $(ls); do mv $i $i".mp4";done
+
+
 #### awk
 |command|use|
 |----|----|
