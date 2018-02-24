@@ -2,9 +2,10 @@
 
 ### 最长上升子序列
 sub\[i\]为以i元素结尾的上升子序列长度
+
     for(int i=0;i<size;i++)
       for(int j =0;j<i;j++)
-        If(sub[j]<sub[i]){
+        if(sub[j]<sub[i]){
         Sub[i] = max(sub[i],sub[j]+1);
      
 ### 最长公共字符串
