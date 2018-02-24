@@ -1,3 +1,20 @@
+问题：
+
+### 最长上升子序列
+sub\[i\]为以i元素结尾的上升子序列长度
+    for(int i=0;i<size;i++)
+      for(int j =0;j<i;j++)
+        If(sub[j]<sub[i]){
+        Sub[i] = max(sub[i],sub[j]+1);
+     
+### 最长公共字符串
+
+      f[i][i] =  (f[i-1][j-1]+1)*bool_same)+(!bool_same)max(f[i-1][j],f[i][j-1])
+
+
+
+
+
 
   
 **特征：**  
