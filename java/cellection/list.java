@@ -16,7 +16,7 @@ Clear();
 
 */
 		
-		List<Integer>lst = new ArrayList<>();
+		List<Integer>lst = new ArrayList<>(); //或者是linkedlist
 		for(int i=0;i<10;i++) {
 			lst.add(i);
 			lst.add(i);			
