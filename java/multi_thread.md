@@ -1,3 +1,12 @@
+
+1. sleep() 和 wait() 的区别就是 调用sleep方法的线程不会释放对象锁，而调用wait() 方法会释放对象锁
+
+sleep()一般定时，而wait()需要对象notify()
+
+
+
+
+
 package com.test;
 
 import java.util.concurrent.ExecutorService;
