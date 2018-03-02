@@ -1,4 +1,6 @@
 #### for 循环
+
+ for i in {2..10}; do echo $i+1;done;
  for i in $(ls); do mv $i $i".mp4";done
 
 
