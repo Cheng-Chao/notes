@@ -10,6 +10,9 @@
 2	年轻代 = Eden区 + 两个Survivor区（From和To）
 
 ## 列含义
+
+jstat -gc pid  sampling(采样时间ms) times(次数)
+
 1	S0C、S1C、S0U、S1U：Survivor 0/1区容量（Capacity）和使用量（Used） 
 
 2	EC、EU：Eden区容量和使用量
