@@ -1,4 +1,14 @@
 
+|collection|stack|queue|
+|---|---|---|
+|remove|pop()|poll()|
+|add|push()|offer()|
+|get|peek()|peek()|
+
+
+
+
+
 
 |局部内部类|匿名内部类|非静态成员内部类|静态成员内部类|
 |---|---|---|---|
