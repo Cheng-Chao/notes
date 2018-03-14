@@ -1,3 +1,7 @@
+* 静态内部类的作用：
+用于代码测试，将主函数写在静态内部类中，会产生outter.class,outter$inner.class 运行后者测试（可以直接删掉）；实际有用者前者。
+
+
 
 |collection|stack|queue|
 |---|---|---|
