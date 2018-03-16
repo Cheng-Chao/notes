@@ -1,7 +1,11 @@
 /*
- * after reading the class TimerThread
- * I write a simple example to explain what a timer_thread does.* 
- * 
+ * After reading the class Timer
+ * I write a simple example to explain what a timer does.* 
+ *
+ *  
+ * Of course, a timer is much more complicated. It has a minimum heap - priority queue, which sort all task by the time. 
+ * Every time, the timer will let the queue wait least time, and then notify the first task,and execute it.  
+ *  
  */
 package zhaojinzhou;
 
