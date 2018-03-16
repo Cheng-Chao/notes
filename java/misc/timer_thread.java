@@ -17,17 +17,28 @@ public class zhaojinzhou {
 		}
 	}
 
-	static class TimerThread implements Runnable{
+	static class TimerThread extends Thread {
+
 		Runnable task;
 		int period;
 		int times;
-
-		TimerThread(Runnable task, int period, int times) {
+		
+		
+		
+		public void setTask(Runnable task) {
 			this.task = task;
+		}
+
+		public void setPeriod(int period) {
 			this.period = period;
+		}
+
+		public void setTimes(int times) {
 			this.times = times;
 		}
 
+		
+		
 		public void run() {
 			for (int i = 0; i < this.times; i++) // to do the task for n times
 
@@ -47,15 +58,19 @@ public class zhaojinzhou {
 	}
 	
 	
-	
-	static class Timer extends Thread{
-		Timer(Runnable input) {
-			// TODO Auto-generated constructor stub
-			super(input);
+	static class Timer{
+		TimerThread tt = new TimerThread();
+		Timer(Task input, int period, int times){
+			tt.setTask(input);
+			tt.setTimes(times);
+			tt.setPeriod(period);
+			tt.start();
 		}
+		
+		
 	}
 
 	public static void main(String[] args) {
-		new Timer(new TimerThread(new Task(), 100, 10)).start(); // execute the task for 10 times, every 100 milliseconds.
+		new Timer(new Task(), 100, 10); // execute the task for 10 times, every 100 milliseconds.
 	}
 }
