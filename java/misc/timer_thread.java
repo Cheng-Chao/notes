@@ -1,5 +1,5 @@
 /*
- * After reading the class Timer
+ * after reading the class Timer
  * I write a simple example to explain what a timer does.* 
  *
  *  
@@ -17,7 +17,7 @@ public class zhaojinzhou {
 		}
 	}
 
-	static class TimerThread extends Thread {
+	static class TimerThread implements Runnable{
 		Runnable task;
 		int period;
 		int times;
@@ -45,8 +45,17 @@ public class zhaojinzhou {
 		}
 
 	}
+	
+	
+	
+	static class Timer extends Thread{
+		Timer(Runnable input) {
+			// TODO Auto-generated constructor stub
+			super(input);
+		}
+	}
 
 	public static void main(String[] args) {
-		new TimerThread(new Task(), 100, 10).start(); // execute the task for 10 times, every 100 milliseconds.
+		new Timer(new TimerThread(new Task(), 100, 10)).start(); // execute the task for 10 times, every 100 milliseconds.
 	}
 }
