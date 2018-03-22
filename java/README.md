@@ -27,6 +27,8 @@
 ## multiThread
 ---
 
+* [Thread](./multi_thread/Thread.md)
+    * [Timer](./multi_thread/Timer.md)  
 * producer and consumer
     * lock and condition
     * semaphore
@@ -34,9 +36,14 @@
 
 * ThreadPool
     * ThreadPoolExecutor
+        * schedu
     * Executors
+        * newCachedThreadPool
+        * newFixedThreadPool 
+        * newScheduledThreadPool 
+        * newSingleThreadExecutor 
     * BlockingQueue
-    * [TheadFactory](./ThreadFactory.MD)
+    * [TheadFactory](./multi_thread/ThreadFactory.md)
 
 
 ## sort
@@ -57,5 +64,5 @@
 * observer
 * flyweight
 * factory
-* [visitor](./visitor.md)
+* [visitor](./design_pattern/visitor.md)
 
