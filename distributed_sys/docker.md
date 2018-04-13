@@ -1,3 +1,4 @@
+
 #### 命令的顺序会影响执行效果的。例如nginx 
 
 |command|use|
@@ -72,3 +73,12 @@ https://docs.docker.com/engine/userguide/networking/#the-default-bridge-networkd
         docker inspect id 详细检查container 配置。  
        docker rm container_id;
        docker rmi image_id;
+
+
+
+
+
+
+
+##### hub.docker.com 加速 
+http://www.daocloud.io/mirror
