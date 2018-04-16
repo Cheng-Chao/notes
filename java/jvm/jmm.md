@@ -9,6 +9,14 @@
 * 线程终止原则
 * 对象终止原则
 
+example: 
+
+|thread 1st|thread 2nd|
+|---|---|
+|int i=2; lock()|unlock(); Sysout i;|
+
+如果unlock成功了，则i =2必然在lock()之前执行了。
+
 
 ## JVM堆内存布局
 
