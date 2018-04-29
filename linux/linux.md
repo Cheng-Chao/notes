@@ -16,7 +16,7 @@ sudo iptables -F
 
 #### iptables
 
-4表5链
+[4表5链](http://www.cnblogs.com/jiu0821/p/5982070.html)
 1. iptables只是Linux防火墙的管理工具，真正实现防火墙功能的是 netfilte，它是Linux内核中实现包过滤的内部结构。
 
 
