@@ -6,11 +6,17 @@
 
 至此实验过用6000端口也可以登录ssh。
 
-2.
+2.虽然“-F”参数可以清空并刷新链中所有的现有规则集，但并不会对链的默认策略进行更改。因此，如果你是在更改远程VPS防火墙策略的话需要在“-F”清 空所有规则时先将INPUT和OUTPUT链的默认策略恢复到ACCEPT，以免规则清空后SSH连接被阻断。要做到这一点可执行如下命令：
+
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+sudo iptables -F
 
 
 
 #### iptables
+
+4表5链
 1. iptables只是Linux防火墙的管理工具，真正实现防火墙功能的是 netfilte，它是Linux内核中实现包过滤的内部结构。
 
 
