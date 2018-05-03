@@ -1,3 +1,12 @@
+@0503 @huawei
+
+## 头文件互相包含问题
+
+* timer_handler.h中包含了业务代码composite_proc.h; composite_proc.h中也包含了timer_handler.h
+* 意图是composite_proc.h中的类已经实现了time_out业务逻辑处理，timer_handler是单例，周期起停定时器，需要实现timeout接口。于是timer_handler持有composite_proc类引用；compositer_proc又需要起定时器和停止定时器，互相包含。
+* 编译的时候会报某一个类找不到。很明显是因为头文件互相包含，#ifndef#define造成的。
+* 提前申明类可解决。在互相包含之后将类在开始前声明下。
+
 @0427 @huawei
 
 ## 取关联数据时，先检查key值是否有效。数据库中数据有效，而不仅仅是局部变量有效。
