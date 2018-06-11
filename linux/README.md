@@ -12,7 +12,7 @@ sudo iptables -P INPUT ACCEPT
 sudo iptables -P OUTPUT ACCEPT
 sudo iptables -F
 
-
+3. netstat -anop 查看端口占用情况。与win 为netstat -ano.
 
 #### iptables
 
