@@ -1,3 +1,21 @@
+## persistence
+
+#### AOF
+
+**save the log of operation**  
+
+* file bigger than rdb for same dataset
+* appendfsync always（每次读写都持久化） 会造成性能上的影响
+
+
+#### RDB
+
+**将内存数据dump出去，redisdb**
+
+* 定时dump，无法保证所有数据都持久化了。  
+* 需要fork进程，如果数据量大会导致server性能问题。 
+
+
 #### redis是AP   availability, partition 
 #### zooleeper 是 CP consistency partition
 
