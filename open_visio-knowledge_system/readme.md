@@ -1,0 +1,1 @@
+* [如何提升你的能力？给年轻程序员的几条建议](https://github.com/zhaojinzhou/notes/blob/master/open_visio-knowledge_system/%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E8%83%BD%E5%8A%9B%EF%BC%9F%E7%BB%99%E5%B9%B4%E8%BD%BB%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E5%87%A0%E6%9D%A1%E5%BB%BA%E8%AE%AE.txt)
