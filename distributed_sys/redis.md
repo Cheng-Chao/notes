@@ -1,3 +1,7 @@
+
+
+
+
 ## persistence
 
 #### AOF
@@ -24,3 +28,7 @@
 #### [redis VS mysql](https://repository.genmymodel.com/zhaojinzhou/redis-vs-mysql-uml)
 
 
+安装注意事项：
+
+1. 到src目录下  make； 直接./redis-server开启服务器  --port specify端口
+2. 如果需要远端访问，需要修改 redis.conf   然后在启动是时候将conf作为参数传入
