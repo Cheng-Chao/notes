@@ -2,6 +2,10 @@
 * 产生公钥：`ssh-keygen -t rsa -C "emailaddress"`将产生的.pub文件copy到网站上去
     
 * 自动换行开关`git config --global core.autocrlf false`
+
+* git config --global color.ui auto
+
+
 * 建立追踪`git branch -u origin/new`  
 
    1. checkout to the local branch you wanna be tracked, firstly;  
