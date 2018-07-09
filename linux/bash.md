@@ -1,3 +1,12 @@
+#### bash 中的 ; && 与|| 的作用
+分号，用于多条命令间的分隔符。还有两个可以用于多条命令中间的特殊符号，那就是 “&&”和”||”。
+1) command1 ; command2
+2) command1 && command2
+3) command1 || command2
+使用”;”时，不管command1是否执行成功都会执行command2； 
+使用”&&”时，只有command1执行成功后，command2才会执行，否则command2不执行；
+使用”||”时，command1执行成功后command2 不执行，否则去执行command2.
+
 #### for 循环
 
  for i in {2..10}; do echo $i+1;done;
