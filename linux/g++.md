@@ -1,6 +1,7 @@
 ----
 编译选项加上在此目录下搜索头文件
-export CPLUS_INCLUDE_PATH=header_path:$CPLUS_INCLUDE_PATH
+
+* export CPLUS_INCLUDE_PATH=header_path:$CPLUS_INCLUDE_PATH
 
 #### 常用的参数(注意大小写)：
 
