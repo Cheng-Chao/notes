@@ -43,6 +43,8 @@ locate .log|grep $(pwd)
 
 vim $(locate .cpp|grep $(pwd))
 
+xargs 命令与之类似 因为管道符不支持多参数传递
+
 
 #### 数组  
 
